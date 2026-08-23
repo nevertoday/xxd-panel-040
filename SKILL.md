@@ -7,6 +7,8 @@ description: "Create XXD Panel 040 artwork from supplied photos in four independ
 
 Turn each supplied photograph into finished editorial artwork. Preserve the photograph only in paired modes; every transformed frame must reinterpret the same photo through one truthful real-world anchor, a few tiny black-line figures, and a concise visual joke or insight grounded in what the photo is really about.
 
+Operational rules follow the shared XXD Panel workflow contract: four combinable modes; source-adaptive ordinary canvases; exact 50/50 paired geometry; linked or independent four-device wallpapers; copy and locale preflight; fresh generation jobs; privacy-preserving raster generation; and one fresh task directory per source and mode. Style-specific sections may refine aesthetics, copy hierarchy, and acceptance criteria but never override this contract.
+
 ## Non-negotiable contract
 
 - One source photo may be processed in one or more selected modes. Each selected ordinary mode (`top-bottom`, `left-right`, `design-only`) produces one PNG; selected `wallpaper-pack` produces exactly four separate PNGs. Selecting all four modes therefore produces seven final files per source. Keep every mode in its own task directory and never combine modes, sources, or wallpapers into a grid, contact sheet, or overview.
@@ -243,6 +245,12 @@ Before accepting each result verify:
 - Type behaves like a handwritten in-scene annotation, thought, or voice-over that follows contour, action, or whitespace—not a boxed title pasted on afterward.
 - Every wallpaper is separately recomposed, respects safe regions, contains no system UI, and is not a crop of another device result. A linked pack shares one visual family without drifting from the source.
 - Every delivered PNG was newly generated for this invocation and lives in its fresh task directory.
+
+## Override policy
+
+Preserve user-specified source, mode set, output count, dimensions, target locale, copy mode, and exact finished wording. Priority is explicit text-free request > exact user wording > editable user direction > source-derived automatic copy. Exact pixels override ratio or destination; ratio or destination overrides source adaptation. A labelled wallpaper size overrides only that device.
+
+User instructions may change subject emphasis, tone, interaction, or copy within 040, but do not silently relax one-photo isolation, exact paired geometry, four separate wallpaper outputs, fresh-task generation, source-hidden output rules, or native-language typography. Leave the truthful-anchor-plus-black-line-figure aesthetic only when the user explicitly asks to leave the 040 style.
 
 ## Provenance boundary
 
