@@ -54,12 +54,12 @@ XXD Panel 040 مهارة لتوليد الصور مخصّصة لـ Codex وال�
 
 <table>
   <tr>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="https://pbs.twimg.com/media/HQQh3RYa8AA26OL.jpg?format=jpg&amp;name=large" alt="نموذج XXD Panel 040 رقم 1"></a></td>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="https://pbs.twimg.com/media/HQQhAkAaAAAx9F4.jpg?format=jpg&amp;name=large" alt="نموذج XXD Panel 040 رقم 2"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-01.jpg" alt="نموذج XXD Panel 040 رقم 1"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-02.jpg" alt="نموذج XXD Panel 040 رقم 2"></a></td>
   </tr>
   <tr>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="https://pbs.twimg.com/media/HQQhzP5acAAMsin.jpg?format=jpg&amp;name=large" alt="نموذج XXD Panel 040 رقم 3"></a></td>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="https://pbs.twimg.com/media/HQQiRA6aIAACbc5.jpg?format=jpg&amp;name=large" alt="نموذج XXD Panel 040 رقم 4"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-03.jpg" alt="نموذج XXD Panel 040 رقم 3"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-04.jpg" alt="نموذج XXD Panel 040 رقم 4"></a></td>
   </tr>
 </table>
 
