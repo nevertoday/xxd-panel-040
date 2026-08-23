@@ -220,7 +220,7 @@ python3 scripts/compose_panel.py --design phone.png --out wallpaper-phone.png \
 
 ## Output location
 
-Save finished work under `~/Desktop/xxd-panel-040/` unless the user supplies another destination.
+Save finished work under `~/Desktop/xxd/xxd-panel-040/` unless the user supplies another destination. Create the shared `~/Desktop/xxd/` wrapper, the skill root, and each task directory when needed.
 
 - Wrap every source-and-mode result in a fresh task directory: `<source-stem>-top-bottom/`, `<source-stem>-left-right/`, `<source-stem>-design-only/`, or `<source-stem>-wallpaper-pack/`.
 - A batch or multi-select creates one sibling task directory per source and selected mode. Never mix sources or modes.
