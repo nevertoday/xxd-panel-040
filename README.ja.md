@@ -44,15 +44,26 @@ XXD Panel 040 は、Codex と互換 Agent のための画像生成 Skill です�
 - **能動的な余白：** 飾りを増やさず、軽く、正確で、呼吸できる画面にします。
 - **場面内の言葉：** 注釈、考え、画外の声として小人の動作と同じ物語を完成させます。
 
-## 作例
+## 作例 · X より
 
-<div align="center">
+> [小小東（@xiaoxiaodong01）](https://x.com/xiaoxiaodong01/status/2090834371423183135) · 2026年8月21日<br>
+> GPT2 × ユーモラスな小人 × 簡略化 × 美学プロンプト × VOL.040<br>
+> 小人は、かわいさを添えるためだけにいるのではありません。写真の内側にあるもう一つの視点として、応答し、つぶやき、画面が言葉にしなかった一言を代わりに語ります。
 
-### 作例を制作中
+<table>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="https://pbs.twimg.com/media/HQQh3RYa8AA26OL.jpg?format=jpg&amp;name=large" alt="XXD Panel 040 作例 1"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="https://pbs.twimg.com/media/HQQhAkAaAAAx9F4.jpg?format=jpg&amp;name=large" alt="XXD Panel 040 作例 2"></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="https://pbs.twimg.com/media/HQQhzP5acAAMsin.jpg?format=jpg&amp;name=large" alt="XXD Panel 040 作例 3"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="https://pbs.twimg.com/media/HQQiRA6aIAACbc5.jpg?format=jpg&amp;name=large" alt="XXD Panel 040 作例 4"></a></td>
+  </tr>
+</table>
 
-ここには、承認済みの 040 作品と元投稿を掲載します。作例は適応力を示すためのものであり、生成時の参照画像、固定配色、固定文案、既定サイズにはなりません。
+<p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135">元の投稿と完全なプロンプトを見る →</a></p>
 
-</div>
+これらの作例は 040 の美学的動機を示すためのものです。作例の被写体、小人の動作、配色、文案、旧来の画面比率を生成参照や現在の既定値として固定することはありません。
 
 ## 4つの出力を支えるひとつの物語ロジック
 

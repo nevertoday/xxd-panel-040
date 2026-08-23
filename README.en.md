@@ -44,15 +44,26 @@ If an unrelated photograph could replace the source without materially changing 
 - **Active whitespace:** the composition stays light, exact, and breathable rather than manufacturing design through decoration.
 - **In-scene copy:** wording behaves like an annotation, thought, or voice-over that completes the figure action.
 
-## Samples
+## Samples · From X
 
-<div align="center">
+> [Xiaoxiaodong (@xiaoxiaodong01)](https://x.com/xiaoxiaodong01/status/2090834371423183135) · 21 August 2026<br>
+> GPT2 × playful tiny figures × simplification × aesthetic prompt × VOL.040<br>
+> The figures are not there merely to be cute. They act as another viewpoint inside the photograph—responding, commenting, or voicing what the scene leaves unsaid.
 
-### Samples in progress
+<table>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="https://pbs.twimg.com/media/HQQh3RYa8AA26OL.jpg?format=jpg&amp;name=large" alt="XXD Panel 040 sample 1"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="https://pbs.twimg.com/media/HQQhAkAaAAAx9F4.jpg?format=jpg&amp;name=large" alt="XXD Panel 040 sample 2"></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="https://pbs.twimg.com/media/HQQhzP5acAAMsin.jpg?format=jpg&amp;name=large" alt="XXD Panel 040 sample 3"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="https://pbs.twimg.com/media/HQQiRA6aIAACbc5.jpg?format=jpg&amp;name=large" alt="XXD Panel 040 sample 4"></a></td>
+  </tr>
+</table>
 
-This section is reserved for approved 040 artwork and its original posts. Samples demonstrate adaptability only; they never become generation references, fixed palettes, fixed copy, or default canvas sizes.
+<p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135">View the original post and full prompt →</a></p>
 
-</div>
+These samples demonstrate the 040 aesthetic motive. Their subjects, figure actions, palette, copy, and earlier canvas ratio never become generation references or current defaults.
 
 ## Four outputs, one narrative logic
 

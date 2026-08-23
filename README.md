@@ -44,15 +44,26 @@ XXD Panel 040 是一个面向 Codex 与兼容 Agent 的图像生成 Skill。它�
 - **主动留白：** 画面轻、准、透气，不靠密集装饰制造“设计感”。
 - **场景内文案：** 文字像小人的注释、念头或画外音，和动作共同把寓意说完整。
 
-## 样张
+## 样张 · 来自 X
 
-<div align="center">
+> [小小东（@xiaoxiaodong01）](https://x.com/xiaoxiaodong01/status/2090834371423183135) · 2026 年 8 月 21 日<br>
+> GPT2 × 趣味小人 × 简化 × 美学提示词 × VOL.040<br>
+> 小人的出现不是为了卖萌，更像照片里的另一个视角：可能在回应、吐槽，或替画面说出一句没有说出口的话。
 
-### 样张制作中
+<table>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="https://pbs.twimg.com/media/HQQh3RYa8AA26OL.jpg?format=jpg&amp;name=large" alt="XXD Panel 040 样张 1"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="https://pbs.twimg.com/media/HQQhAkAaAAAx9F4.jpg?format=jpg&amp;name=large" alt="XXD Panel 040 样张 2"></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="https://pbs.twimg.com/media/HQQhzP5acAAMsin.jpg?format=jpg&amp;name=large" alt="XXD Panel 040 样张 3"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="https://pbs.twimg.com/media/HQQiRA6aIAACbc5.jpg?format=jpg&amp;name=large" alt="XXD Panel 040 样张 4"></a></td>
+  </tr>
+</table>
 
-这里已为正式样张预留展示区域。后续只会加入经过确认的 040 成品与对应原帖；样张用于展示风格适应力，不会成为生成参考、固定配色、固定文案或默认尺寸。
+<p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135">查看原推文与完整提示词 →</a></p>
 
-</div>
+这些样张用于展示 040 的美学动机，不会把样张中的主体、小人动作、配色、文案或旧画幅变成生成参考或当前默认值。
 
 ## 四种输出共享同一种叙事逻辑
 

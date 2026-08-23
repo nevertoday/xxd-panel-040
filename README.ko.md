@@ -44,15 +44,26 @@ XXD Panel 040은 Codex와 호환 에이전트를 위한 이미지 생성 Skill�
 - **능동적인 여백:** 장식을 쌓지 않고 가볍고 정확하며 숨 쉬는 구성을 만듭니다.
 - **장면 안의 문구:** 주석, 생각, 화면 밖 목소리처럼 인물의 행동과 같은 이야기를 완성합니다.
 
-## 예시
+## 예시 · X에서
 
-<div align="center">
+> [샤오샤오둥（@xiaoxiaodong01）](https://x.com/xiaoxiaodong01/status/2090834371423183135) · 2026년 8월 21일<br>
+> GPT2 × 재치 있는 작은 인물 × 단순화 × 미학 프롬프트 × VOL.040<br>
+> 작은 인물은 단지 귀여움을 더하려고 등장하지 않습니다. 사진 속 또 하나의 시선이 되어 장면에 응답하고, 한마디를 보태거나, 화면이 미처 말하지 않은 생각을 대신 전합니다.
 
-### 예시 제작 중
+<table>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="https://pbs.twimg.com/media/HQQh3RYa8AA26OL.jpg?format=jpg&amp;name=large" alt="XXD Panel 040 예시 1"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="https://pbs.twimg.com/media/HQQhAkAaAAAx9F4.jpg?format=jpg&amp;name=large" alt="XXD Panel 040 예시 2"></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="https://pbs.twimg.com/media/HQQhzP5acAAMsin.jpg?format=jpg&amp;name=large" alt="XXD Panel 040 예시 3"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="https://pbs.twimg.com/media/HQQiRA6aIAACbc5.jpg?format=jpg&amp;name=large" alt="XXD Panel 040 예시 4"></a></td>
+  </tr>
+</table>
 
-이 영역에는 승인된 040 작품과 원문 게시물을 추가할 예정입니다. 예시는 스타일의 적응력만 보여 주며, 생성 참조 이미지, 고정 팔레트, 고정 문구, 기본 캔버스 크기가 되지 않습니다.
+<p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135">원문 게시물과 전체 프롬프트 보기 →</a></p>
 
-</div>
+이 예시는 040의 미학적 동기를 보여 주기 위한 것입니다. 예시의 피사체, 인물 동작, 팔레트, 문구, 이전 화면 비율을 생성 참조나 현재 기본값으로 고정하지 않습니다.
 
 ## 네 가지 출력, 하나의 서사 논리
 

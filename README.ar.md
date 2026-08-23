@@ -46,15 +46,26 @@ XXD Panel 040 مهارة لتوليد الصور مخصّصة لـ Codex وال�
 - **فراغ فعّال:** يبقى التكوين خفيفاً ودقيقاً وقابلاً للتنفس، من دون زخرفة كثيفة.
 - **عبارة داخل المشهد:** تعمل الكلمات كملاحظة أو فكرة أو صوت خارج الكادر يكمل حركة الشخصيات.
 
-## النماذج
+## نماذج · من X
 
-<div align="center" dir="rtl">
+> [Xiaoxiaodong (@xiaoxiaodong01)](https://x.com/xiaoxiaodong01/status/2090834371423183135) · 21 أغسطس 2026<br>
+> GPT2 × شخصيات صغيرة مرحة × تبسيط × توجيه جمالي × VOL.040<br>
+> لا تظهر الشخصيات لمجرد إضفاء اللطافة؛ بل تمثل منظوراً آخر داخل الصورة، فتستجيب للمشهد أو تعلّق عليه أو تنطق بما تركه من دون قول.
 
-### النماذج قيد الإعداد
+<table>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="https://pbs.twimg.com/media/HQQh3RYa8AA26OL.jpg?format=jpg&amp;name=large" alt="نموذج XXD Panel 040 رقم 1"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="https://pbs.twimg.com/media/HQQhAkAaAAAx9F4.jpg?format=jpg&amp;name=large" alt="نموذج XXD Panel 040 رقم 2"></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="https://pbs.twimg.com/media/HQQhzP5acAAMsin.jpg?format=jpg&amp;name=large" alt="نموذج XXD Panel 040 رقم 3"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="https://pbs.twimg.com/media/HQQiRA6aIAACbc5.jpg?format=jpg&amp;name=large" alt="نموذج XXD Panel 040 رقم 4"></a></td>
+  </tr>
+</table>
 
-هذا الموضع مخصّص لأعمال 040 المعتمدة ومنشوراتها الأصلية. تعرض النماذج مرونة الأسلوب فقط، ولا تصبح مراجع توليد أو ألواناً ثابتة أو نصوصاً ثابتة أو مقاسات افتراضية.
+<p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135">عرض المنشور الأصلي والتوجيه كاملاً ←</a></p>
 
-</div>
+توضح هذه النماذج الدافع الجمالي لـ 040، ولا تجعل موضوعاتها أو أفعال الشخصيات أو ألوانها أو نصوصها أو نسبة اللوحة القديمة مراجع للتوليد أو قيماً افتراضية حالية.
 
 ## أربعة مخرجات ومنطق سردي واحد
 
