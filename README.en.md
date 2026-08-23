@@ -56,7 +56,7 @@ This section is reserved for approved 040 artwork and its original posts. Sample
 
 ## Four outputs, one narrative logic
 
-If no mode is specified, the skill asks first. Dimensions may be supplied in the same reply; exact pixels take priority.
+The four modes support single or multiple selection. Reply with `1`, `1+3`, `1,2,4`, or `all`; the Skill deduplicates and runs them in menu order 1→4. Every mode is delivered independently in its own task directory—never as an overview—and `all` yields seven PNGs per source (one for each ordinary mode plus four wallpapers). Sizes may be labelled by mode in the same reply; unlabeled ordinary modes remain source-adaptive. Copy is shared across selected modes by default and may be overridden per mode.
 
 | Mode | Sizing logic | Deliverable |
 | --- | --- | --- |
@@ -123,7 +123,7 @@ $xxd-panel-040
 Turn this photograph into a left-right composition. Derive the copy from the image and write it in natural Korean.
 ```
 
-You may invoke the Skill with only a photograph. It first asks for the mode in a numbered multiline menu, then for copy settings; wallpaper mode also asks for linked/independent continuity and device sizes.
+You may invoke the Skill with only a photograph. It first asks for one or more modes in a numbered multiline menu, then for copy settings; wallpaper mode also asks for linked/independent continuity and device sizes.
 
 Full specifications:
 
@@ -138,7 +138,7 @@ Full specifications:
 - Every invocation creates a fresh task directory; even identical sources and parameters must generate anew.
 - Deliverables are PNG bitmaps, never SVG, HTML, Canvas, or programmatic-drawing substitutes.
 - The configured bitmap bridge emits sanitised status only and does not expose providers, endpoints, headers, credentials, prompts, or response bodies.
-- Ordinary modes return one image per source; wallpaper mode returns exactly four separate files, never a contact sheet.
+- Each selected ordinary mode returns one file; selected `wallpaper-pack` adds four separate wallpapers. `all` returns seven PNGs per source across four sibling mode directories, never a contact sheet or overview.
 
 Local composition needs Python 3 and Pillow. The safe bitmap bridge uses Python 3.11+ `tomllib`. Image generation still requires a host agent with built-in raster generation or an already configured compatible raster route.
 

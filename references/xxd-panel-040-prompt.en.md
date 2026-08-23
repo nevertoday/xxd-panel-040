@@ -1,8 +1,8 @@
 # XXD Panel 040 · Full Generation Prompt (English)
 
-Treat the one currently selected photograph as the sole content source. Ordinary modes produce one independent finished artwork; wallpaper mode produces four separate PNGs for phone, iPad, desktop, and children's watch. Never mix in another photo or combine outputs into an overview.
+Treat the one currently selected photograph as the sole content source. Each selected ordinary mode produces one independent finished artwork; wallpaper mode produces four separate PNGs for phone, iPad, desktop, and children's watch. Never mix in another photo or combine outputs into an overview.
 
-Use the already resolved mode: photography above and micro-narrative design below, photography left and design right, transformed design only, or a four-device wallpaper pack. Paired layouts split exactly 50/50. Design-only and wallpapers contain no visible source photo or seam. Before generation, automatic copy, custom copy, or text-free output—and the target locale whenever copy is present—must already be resolved.
+Use the one or more already resolved modes: photography above and micro-narrative design below, photography left and design right, transformed design only, and/or a four-device wallpaper pack. Paired layouts split exactly 50/50. Design-only and wallpapers contain no visible source photo or seam. Before generation, automatic copy, custom copy, or text-free output—and the target locale whenever copy is present—must already be resolved.
 
 The area containing the truthful real-world subject and black-line figures is called the **transformed frame** below.
 
@@ -114,12 +114,14 @@ Remove unused note lines. Text-free output uses only `COPY MODE: NONE — render
 
 ## 7. Modes, dimensions, and wallpaper
 
+Lock one or more modes before generation. Accept one number, multiple numbers separated by `+`, Chinese/English commas or whitespace, mode names, and `全部` / `all`; deduplicate and execute in menu order 1→4. Each selected ordinary mode produces one file and selected wallpaper mode produces four, so `all` yields seven PNGs per source across four sibling mode directories, never an overview. By default, share the same locked source-specific copy verbatim across all selected modes; only explicit per-mode copy instructions create overrides.
+
 1. **TOP_BOTTOM:** complete source above, transformed design below, exact equal height. Without an explicit size output `W×2H`.
 2. **LEFT_RIGHT:** complete source left, transformed design right, exact equal width. Without an explicit size output `2W×H`.
 3. **DESIGN_ONLY:** source remains evidence but is invisible; transformed design fills the canvas. Without an explicit size output `W×H`.
 4. **WALLPAPER_PACK:** four separate transformed designs for phone, iPad, desktop, and watch; lock `INDEPENDENT` or `LINKED`.
 
-Priority: exact pixels > explicit ratio/destination > source adaptation for ordinary modes. Exact paired height/width on the split axis must be even and may never be silently altered. The initial brief's 3:4 canvas is historical context, not the current default.
+Priority: exact pixels > explicit ratio/destination > source adaptation for ordinary modes. Exact paired height/width on the split axis must be even and may never be silently altered. In multi-select, custom dimensions must be labelled by mode; if one unlabeled size could apply to several modes, ask rather than applying it arbitrarily, while unlabeled ordinary modes remain source-adaptive. The initial brief's 3:4 canvas is historical context, not the current default.
 
 Wallpaper has no silent size default. When the common preset is explicitly chosen use phone `1440×3200`, iPad `2048×2732`, desktop `3840×2160`, and watch `1024×1024`; otherwise use labelled custom dimensions.
 
@@ -152,7 +154,7 @@ Keep wallpaper system-UI zones low-information. Render no fake clock, icons, doc
 
 ## 9. Pre-generation check
 
-1. The call processes one clear source and the output count matches the mode.
+1. The call processes one clear source and the output count matches the selected mode set: one per ordinary mode, four for selected wallpaper mode, and seven across four sibling directories for `all`.
 2. The memorable core is evidence-based, not a mechanical choice of the largest object.
 3. The truthful anchor preserves at least three source-specific cues, real material, and principal colour.
 4. Every figure serves the same implication; deleting pure decoration should make the scene more accurate, not merely emptier.

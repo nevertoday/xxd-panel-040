@@ -1,6 +1,6 @@
 ---
 name: xxd-panel-040
-description: "Create XXD Panel 040 artwork from supplied photos in four selectable modes: photo above/micro-narrative design below, photo left/design right, transformed design alone, or a four-device wallpaper pack with independent or anchor-linked continuity. Uses one truthful real-world subject anchor, sparse black-line doodle figures, source-derived colour, generous whitespace, and witty image-bound copy. Use for the exact 040 real-subject-plus-doodle editorial style; never use it for generic sticker decoration or multi-photo collage."
+description: "Create XXD Panel 040 artwork from supplied photos in four independently selectable modes that may be combined: photo above/micro-narrative design below, photo left/design right, transformed design alone, or a four-device wallpaper pack with independent or anchor-linked continuity. Uses one truthful real-world subject anchor, sparse black-line doodle figures, source-derived colour, generous whitespace, and witty image-bound copy. Use for the exact 040 real-subject-plus-doodle editorial style; never use it for generic sticker decoration or multi-photo collage."
 ---
 
 # XXD Panel 040 · 真实锚点与黑线微型叙事
@@ -9,14 +9,14 @@ Turn each supplied photograph into finished editorial artwork. Preserve the phot
 
 ## Non-negotiable contract
 
-- One source photo produces one output in `top-bottom`, `left-right`, or `design-only`, and exactly four separate PNG files in `wallpaper-pack`. Never combine different source photos or the four wallpapers into a grid, contact sheet, or overview.
-- Resolve one mode before generation: `top-bottom`, `left-right`, `design-only`, or `wallpaper-pack`. If the user has not specified one, ask with the multiline menu in the workflow. Do not ask again when the answer is already clear.
-- `wallpaper-pack` requires a second choice: `linked` or `independent`. A linked pack approves one anchor wallpaper, iPad by default, and makes every other device reference both the original photo and that same anchor. An independent pack gives every device only the original photo. Neither permits resizing or cropping one wallpaper into the others.
+- One source photo may be processed in one or more selected modes. Each selected ordinary mode (`top-bottom`, `left-right`, `design-only`) produces one PNG; selected `wallpaper-pack` produces exactly four separate PNGs. Selecting all four modes therefore produces seven final files per source. Keep every mode in its own task directory and never combine modes, sources, or wallpapers into a grid, contact sheet, or overview.
+- Resolve a non-empty ordered set of modes before generation: `top-bottom`, `left-right`, `design-only`, and/or `wallpaper-pack`. Accept one choice, multiple choices separated by `+`, Chinese/English commas or whitespace, natural-language names, or `全部` / `all`. Deduplicate repeated choices and execute in menu order 1→4. If none is specified, ask with the multiline multi-select menu in the workflow. Do not ask again when the set is already clear.
+- When the selected set contains `wallpaper-pack`, require a second choice: `linked` or `independent`. A linked pack approves one anchor wallpaper, iPad by default, and makes every other device reference both the original photo and that same anchor. An independent pack gives every device only the original photo. Neither permits resizing or cropping one wallpaper into the others. Do not ask this follow-up when wallpaper mode is not selected.
 - Paired modes split exactly 50/50. `design-only` and every wallpaper contain no visible source photograph, no seam, and no reserved photographic panel.
 - Exact user pixels have highest priority, followed by an explicit ratio or destination. Otherwise ordinary modes adapt to the complete source: `top-bottom` = `W×2H`, `left-right` = `2W×H`, and `design-only` = `W×H`. Never impose the 3:4 ratio from the archived initial brief as a silent default.
 - Visible photography remains faithful. Allow only restrained editorial grading and environmental extension needed for an explicitly overridden canvas. Never stretch, distort, repaint, replace, or structurally alter the subject.
 - The transformed frame is not a photo filter or cartoon sticker sheet. It preserves one real, materially credible subject anchor and surrounds it with only a few primitive black or dark-grey line figures whose scale, poses, and interaction reinterpret the source relationship.
-- Copy has no silent default. Resolve automatic copy, exact custom copy, or text-free output before image generation. Automatic and custom modes also require a target language or locale.
+- Copy has no silent default. Resolve automatic copy, exact custom copy, or text-free output before image generation. Automatic and custom modes also require a target language or locale. By default, one source-specific copy package is shared verbatim across all selected modes; accept explicit per-mode copy overrides when the user supplies them.
 - Render no logo, watermark, signature, colour swatch, UI, device mockup, decorative pseudo-text, or unrelated explanatory prose.
 
 ## Aesthetic motive lock
@@ -96,10 +96,10 @@ Use only images attached to the current invocation, explicit user paths, or a pr
 
 ## Workflow
 
-1. If mode is unresolved, ask exactly this as normal multiline chat text and wait:
+1. If no mode is resolved, ask exactly this as normal multiline chat text and wait:
 
    ```text
-   请选择模式（回复序号即可）：
+   请选择一个或多个模式（回复序号；多选可用 +、顿号或逗号）：
 
    1. 上下双联（完整原图＋同尺寸设计图）
    2. 左右双联（完整原图＋同尺寸设计图）
@@ -108,9 +108,11 @@ Use only images attached to the current invocation, explicit user paths, or a pr
       手机＋iPad＋电脑＋儿童手表
 
    前三种不指定尺寸时按原图自适应；也可主动指定尺寸。壁纸套装可按设备分别给分辨率。
+   示例：1｜1+3｜1、2、4｜全部
    ```
 
-2. If `wallpaper-pack` is selected without a relationship, ask and wait:
+   Accept `1`, `1+3`, `1、2、4`, `all` / `全部`, names, and natural-language equivalents. Normalize to a deduplicated set in menu order.
+2. If the selected set contains `wallpaper-pack` without a relationship, ask and wait:
 
    ```text
    请选择壁纸关系（回复序号即可）：
@@ -136,7 +138,7 @@ Use only images attached to the current invocation, explicit user paths, or a pr
    示例：2｜英式英语｜主标题：HOLD THAT THOUGHT｜微型文字：...
    ```
 
-4. Resolve dimensions: exact pixels > explicit ratio/destination > source adaptation. Exact `top-bottom` height and `left-right` width must be even; never silently round. Wallpaper-pack has no silent size default. If unresolved, ask:
+4. Resolve dimensions independently for every selected mode: exact pixels > explicit ratio/destination > source adaptation. Exact `top-bottom` height and `left-right` width must be even; never silently round. When multiple modes are selected, custom sizes must be labeled by mode; if one unlabeled size could apply to more than one selected mode, ask which mode or modes it belongs to. Unlabeled ordinary modes remain source-adaptive. Wallpaper-pack has no silent size default and its size follow-up is asked only when wallpaper mode is selected. If unresolved, ask:
 
    ```text
    请选择壁纸尺寸（回复序号即可）：
@@ -147,16 +149,17 @@ Use only images attached to the current invocation, explicit user paths, or a pr
       请分别输入手机、iPad、电脑、儿童手表的尺寸
    ```
 
-5. Open a new job boundary and reserve the next unused output directory under the output rules. Confirm only the current user-supplied sources, inspect each separately, and read the full prompt matching the working language:
+5. Open one new job boundary and reserve the next unused sibling output directory for every source and selected mode under the output rules. Confirm only the current user-supplied sources, inspect each separately, and read the full prompt matching the working language:
    - Chinese: [references/xxd-panel-040-prompt.zh-CN.md](references/xxd-panel-040-prompt.zh-CN.md)
    - English: [references/xxd-panel-040-prompt.en.md](references/xxd-panel-040-prompt.en.md)
 6. Privately lock: the semantic core; one real anchor or inseparable relationship; at least three identity cues; the anchor's defining material and source colours; the figure-to-anchor interaction; the active whitespace; and the copy turn. Do not invent biography, ownership, location, events, or emotion unsupported by the image.
-7. Lock one copy package per source. Priority: explicit text-free request > exact user wording > editable user direction > source-derived automatic copy. Do not reuse one photo's copy for another unless asked.
-8. Run `scripts/compose_panel.py --plan` for the resolved canvas. Wallpaper-pack uses four `design-only` plans.
-9. Generate the transformed design alone at the planned aspect and preferably exact frame size. For paired modes, prepare the photographic panel separately. Never ask the model to generate both halves at once.
+7. Lock one copy package per source and share it verbatim across selected modes by default; honor explicit per-mode copy overrides separately. Priority: explicit text-free request > exact user wording > editable user direction > source-derived automatic copy. Do not reuse one photo's copy for another unless asked.
+8. Run `scripts/compose_panel.py --plan` for every selected mode and resolved canvas. Selected wallpaper-pack uses four `design-only` plans.
+9. Generate each distinct transformed design alone at the planned aspect and preferably exact frame size. For paired modes, prepare the photographic panel separately. Never ask the model to generate both halves at once.
+   Within the same current invocation, selected ordinary modes may reuse one newly approved transformed intermediate only when design-frame dimensions, aspect ratio, source facts, aesthetic instructions, and locked copy are identical; this is current-job reuse, never historical-output reuse. Otherwise generate each mode separately. Wallpaper assets are always generated separately.
 10. In `independent`, generate four separate wallpapers from the original photo. In `linked`, generate and visually approve the anchor first; every derivative receives exactly the original source plus that same anchor. The photo controls content and identity; the anchor controls only family resemblance—palette, anchor treatment, doodle grammar, handwriting, whitespace, and narrative tone. Never chain derivatives.
-11. Finalise with `scripts/compose_panel.py`, then reopen every PNG at normal and thumbnail size. Retry a faulty generated asset once when a hard invariant fails. After one failed correction, return the best result and name the unresolved issue rather than pretending success.
-12. Return absolute paths in source order. Wallpaper order is phone, iPad, desktop, watch.
+11. Finalise every selected mode in menu order with `scripts/compose_panel.py`, then reopen every PNG at normal and thumbnail size. Retry a faulty generated asset once when a hard invariant fails. After one failed correction, return the best result and name the unresolved issue rather than pretending success.
+12. Return absolute paths in source order, then menu order 1→4. Wallpaper order is phone, iPad, desktop, watch.
 
 ## Generation payload
 
@@ -220,8 +223,9 @@ python3 scripts/compose_panel.py --design phone.png --out wallpaper-phone.png \
 Save finished work under `~/Desktop/xxd-panel-040/` unless the user supplies another destination.
 
 - Wrap every source-and-mode result in a fresh task directory: `<source-stem>-top-bottom/`, `<source-stem>-left-right/`, `<source-stem>-design-only/`, or `<source-stem>-wallpaper-pack/`.
-- A batch creates one sibling task directory per source. Never mix sources.
+- A batch or multi-select creates one sibling task directory per source and selected mode. Never mix sources or modes.
 - Ordinary task directories contain only one finished PNG: `<source-stem>.png`, `<source-stem>-lr.png`, or `<source-stem>-design.png`.
+- The final count per source equals one file for each selected ordinary mode plus four files when `wallpaper-pack` is selected. `all` / `全部` therefore means seven final PNGs across four sibling task directories.
 - A wallpaper task directory contains exactly four finished PNGs named `<source-stem>-wallpaper-phone.png`, `-ipad.png`, `-desktop.png`, and `-watch.png`; do not create device subdirectories.
 - Never overwrite. Append `-2`, `-3`, and so on to a colliding task-directory name while keeping filenames unchanged.
 - Keep prompts, intermediate generations, plans, audits, and source copies outside the finished task directory.

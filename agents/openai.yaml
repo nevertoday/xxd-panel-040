@@ -1,4 +1,4 @@
 interface:
   display_name: "xxd-panel-040"
   short_description: "Create real-anchor and black-line micro-narrative art."
-  default_prompt: "Use $xxd-panel-040 to ask for mode and copy/language preference, preserve source-adaptive dimensions unless I specify a size, then reinterpret each photo through one truthful anchor and a few meaningful black-line figures."
+  default_prompt: "Use $xxd-panel-040 to ask for one or more modes and the copy/language preference, preserve source-adaptive dimensions unless I specify per-mode sizes, then reinterpret each photo through one truthful anchor and a few meaningful black-line figures."
