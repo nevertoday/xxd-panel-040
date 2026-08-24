@@ -22,6 +22,27 @@ XXD Panel 040 是一个面向 Codex 与兼容 Agent 的图像生成 Skill。它�
 
 最终文案也从同一个寓意里生长，像小人留下的一句注释、念头或画外音。
 
+## 样张 · 来自 X
+
+> [小小东（@xiaoxiaodong01）](https://x.com/xiaoxiaodong01/status/2090834371423183135) · 2026 年 8 月 21 日<br>
+> GPT2 × 趣味小人 × 简化 × 美学提示词 × VOL.040<br>
+> 小人的出现不是为了卖萌，更像照片里的另一个视角：可能在回应、吐槽，或替画面说出一句没有说出口的话。
+
+<table>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-01.jpg" alt="XXD Panel 040 样张 1"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-02.jpg" alt="XXD Panel 040 样张 2"></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-03.jpg" alt="XXD Panel 040 样张 3"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-04.jpg" alt="XXD Panel 040 样张 4"></a></td>
+  </tr>
+</table>
+
+<p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135">查看原推文与完整提示词 →</a></p>
+
+这些样张用于展示 040 的美学动机，不会把样张中的主体、小人动作、配色、文案或旧画幅变成生成参考或当前默认值。
+
 ## 为什么需要 040
 
 “真实物体＋涂鸦小人”很容易退化成通用贴纸模板：无论原图是什么，小人都在爬、坐、挥手；主体只是一个被抠出来的最大物体；文案只是物体名称或励志金句。
@@ -43,27 +64,6 @@ XXD Panel 040 是一个面向 Codex 与兼容 Agent 的图像生成 Skill。它�
 - **源图色彩＋浅色空间：** 真实锚点承担主要色彩，背景以舒适浅色为主，小人与文字用黑色或深灰形成对比。
 - **主动留白：** 画面轻、准、透气，不靠密集装饰制造“设计感”。
 - **场景内文案：** 文字像小人的注释、念头或画外音，和动作共同把寓意说完整。
-
-## 样张 · 来自 X
-
-> [小小东（@xiaoxiaodong01）](https://x.com/xiaoxiaodong01/status/2090834371423183135) · 2026 年 8 月 21 日<br>
-> GPT2 × 趣味小人 × 简化 × 美学提示词 × VOL.040<br>
-> 小人的出现不是为了卖萌，更像照片里的另一个视角：可能在回应、吐槽，或替画面说出一句没有说出口的话。
-
-<table>
-  <tr>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-01.jpg" alt="XXD Panel 040 样张 1"></a></td>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-02.jpg" alt="XXD Panel 040 样张 2"></a></td>
-  </tr>
-  <tr>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-03.jpg" alt="XXD Panel 040 样张 3"></a></td>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-04.jpg" alt="XXD Panel 040 样张 4"></a></td>
-  </tr>
-</table>
-
-<p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135">查看原推文与完整提示词 →</a></p>
-
-这些样张用于展示 040 的美学动机，不会把样张中的主体、小人动作、配色、文案或旧画幅变成生成参考或当前默认值。
 
 ## 原始提示词优先，而不是二次导演
 

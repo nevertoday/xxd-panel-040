@@ -22,6 +22,27 @@ XXD Panel 040은 Codex와 호환 에이전트를 위한 이미지 생성 Skill�
 
 문구도 같은 함의에서 자라나며, 작은 인물이 남긴 메모, 생각, 화면 밖 한마디처럼 작동합니다.
 
+## 예시 · X에서
+
+> [샤오샤오둥（@xiaoxiaodong01）](https://x.com/xiaoxiaodong01/status/2090834371423183135) · 2026년 8월 21일<br>
+> GPT2 × 재치 있는 작은 인물 × 단순화 × 미학 프롬프트 × VOL.040<br>
+> 작은 인물은 단지 귀여움을 더하려고 등장하지 않습니다. 사진 속 또 하나의 시선이 되어 장면에 응답하고, 한마디를 보태거나, 화면이 미처 말하지 않은 생각을 대신 전합니다.
+
+<table>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-01.jpg" alt="XXD Panel 040 예시 1"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-02.jpg" alt="XXD Panel 040 예시 2"></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-03.jpg" alt="XXD Panel 040 예시 3"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-04.jpg" alt="XXD Panel 040 예시 4"></a></td>
+  </tr>
+</table>
+
+<p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135">원문 게시물과 전체 프롬프트 보기 →</a></p>
+
+이 예시는 040의 미학적 동기를 보여 주기 위한 것입니다. 예시의 피사체, 인물 동작, 팔레트, 문구, 이전 화면 비율을 생성 참조나 현재 기본값으로 고정하지 않습니다.
+
 ## 왜 040이 필요한가요
 
 ‘실제 물체＋낙서 인물’은 쉽게 범용 스티커 템플릿이 됩니다. 원본과 상관없이 인물이 오르고, 앉고, 손을 흔듭니다. 가장 큰 오려낸 물체가 자동으로 주인공이 되고, 문구는 물체 이름이나 동기부여 문장이 됩니다.
@@ -43,27 +64,6 @@ XXD Panel 040은 Codex와 호환 에이전트를 위한 이미지 생성 Skill�
 - **원본 색과 밝은 공간:** 실제 앵커가 주요 색을 담당하고 편안한 밝은 배경 위에 검정 또는 짙은 회색 선이 대비됩니다.
 - **능동적인 여백:** 장식을 쌓지 않고 가볍고 정확하며 숨 쉬는 구성을 만듭니다.
 - **장면 안의 문구:** 주석, 생각, 화면 밖 목소리처럼 인물의 행동과 같은 이야기를 완성합니다.
-
-## 예시 · X에서
-
-> [샤오샤오둥（@xiaoxiaodong01）](https://x.com/xiaoxiaodong01/status/2090834371423183135) · 2026년 8월 21일<br>
-> GPT2 × 재치 있는 작은 인물 × 단순화 × 미학 프롬프트 × VOL.040<br>
-> 작은 인물은 단지 귀여움을 더하려고 등장하지 않습니다. 사진 속 또 하나의 시선이 되어 장면에 응답하고, 한마디를 보태거나, 화면이 미처 말하지 않은 생각을 대신 전합니다.
-
-<table>
-  <tr>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-01.jpg" alt="XXD Panel 040 예시 1"></a></td>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-02.jpg" alt="XXD Panel 040 예시 2"></a></td>
-  </tr>
-  <tr>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-03.jpg" alt="XXD Panel 040 예시 3"></a></td>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-04.jpg" alt="XXD Panel 040 예시 4"></a></td>
-  </tr>
-</table>
-
-<p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135">원문 게시물과 전체 프롬프트 보기 →</a></p>
-
-이 예시는 040의 미학적 동기를 보여 주기 위한 것입니다. 예시의 피사체, 인물 동작, 팔레트, 문구, 이전 화면 비율을 생성 참조나 현재 기본값으로 고정하지 않습니다.
 
 ## 원본 프롬프트가 유일한 미적 기준입니다
 

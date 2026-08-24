@@ -22,6 +22,27 @@ XXD Panel 040 は、Codex と互換 Agent のための画像生成 Skill です�
 
 言葉も同じ意味から生まれ、小人が残したメモ、心の声、画面外のひと言のように働きます。
 
+## 作例 · X より
+
+> [小小東（@xiaoxiaodong01）](https://x.com/xiaoxiaodong01/status/2090834371423183135) · 2026年8月21日<br>
+> GPT2 × ユーモラスな小人 × 簡略化 × 美学プロンプト × VOL.040<br>
+> 小人は、かわいさを添えるためだけにいるのではありません。写真の内側にあるもう一つの視点として、応答し、つぶやき、画面が言葉にしなかった一言を代わりに語ります。
+
+<table>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-01.jpg" alt="XXD Panel 040 作例 1"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-02.jpg" alt="XXD Panel 040 作例 2"></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-03.jpg" alt="XXD Panel 040 作例 3"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-04.jpg" alt="XXD Panel 040 作例 4"></a></td>
+  </tr>
+</table>
+
+<p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135">元の投稿と完全なプロンプトを見る →</a></p>
+
+これらの作例は 040 の美学的動機を示すためのものです。作例の被写体、小人の動作、配色、文案、旧来の画面比率を生成参照や現在の既定値として固定することはありません。
+
 ## なぜ 040 が必要なのか
 
 「実物＋落書きの小人」は、簡単に汎用ステッカーへ崩れます。元写真に関係なく小人が登る、座る、手を振る。最大の切り抜き物体が自動的に主役になり、言葉は物の名前や励ましの句になる。
@@ -43,27 +64,6 @@ XXD Panel 040 は、Codex と互換 Agent のための画像生成 Skill です�
 - **元写真の色＋明るい空間：** 色は実在アンカーが担い、心地よい淡色の背景に黒または濃いグレーの線を対比させます。
 - **能動的な余白：** 飾りを増やさず、軽く、正確で、呼吸できる画面にします。
 - **場面内の言葉：** 注釈、考え、画外の声として小人の動作と同じ物語を完成させます。
-
-## 作例 · X より
-
-> [小小東（@xiaoxiaodong01）](https://x.com/xiaoxiaodong01/status/2090834371423183135) · 2026年8月21日<br>
-> GPT2 × ユーモラスな小人 × 簡略化 × 美学プロンプト × VOL.040<br>
-> 小人は、かわいさを添えるためだけにいるのではありません。写真の内側にあるもう一つの視点として、応答し、つぶやき、画面が言葉にしなかった一言を代わりに語ります。
-
-<table>
-  <tr>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-01.jpg" alt="XXD Panel 040 作例 1"></a></td>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-02.jpg" alt="XXD Panel 040 作例 2"></a></td>
-  </tr>
-  <tr>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-03.jpg" alt="XXD Panel 040 作例 3"></a></td>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-04.jpg" alt="XXD Panel 040 作例 4"></a></td>
-  </tr>
-</table>
-
-<p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135">元の投稿と完全なプロンプトを見る →</a></p>
-
-これらの作例は 040 の美学的動機を示すためのものです。作例の被写体、小人の動作、配色、文案、旧来の画面比率を生成参照や現在の既定値として固定することはありません。
 
 ## 原文プロンプトを唯一の美的基準にする
 

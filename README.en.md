@@ -22,6 +22,27 @@ XXD Panel 040 is an image-generation skill for Codex and compatible agents. It d
 
 Copy grows from the same implication, like a figure's annotation, thought, or off-screen remark.
 
+## Samples · From X
+
+> [Xiaoxiaodong (@xiaoxiaodong01)](https://x.com/xiaoxiaodong01/status/2090834371423183135) · 21 August 2026<br>
+> GPT2 × playful tiny figures × simplification × aesthetic prompt × VOL.040<br>
+> The figures are not there merely to be cute. They act as another viewpoint inside the photograph—responding, commenting, or voicing what the scene leaves unsaid.
+
+<table>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-01.jpg" alt="XXD Panel 040 sample 1"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-02.jpg" alt="XXD Panel 040 sample 2"></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-03.jpg" alt="XXD Panel 040 sample 3"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-04.jpg" alt="XXD Panel 040 sample 4"></a></td>
+  </tr>
+</table>
+
+<p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135">View the original post and full prompt →</a></p>
+
+These samples demonstrate the 040 aesthetic motive. Their subjects, figure actions, palette, copy, and earlier canvas ratio never become generation references or current defaults.
+
 ## Why it exists
 
 “Real object plus doodle people” easily becomes a sticker template: figures climb, sit, and wave no matter what the source contains; the largest cutout object becomes the subject; copy merely names it or adds a motivational line.
@@ -43,27 +64,6 @@ If an unrelated photograph could replace the source without materially changing 
 - **Source colour and a light field:** the real anchor carries colour; a comfortable pale ground gives black or dark-grey lines clear contrast.
 - **Active whitespace:** the composition stays light, exact, and breathable rather than manufacturing design through decoration.
 - **In-scene copy:** wording behaves like an annotation, thought, or voice-over that completes the figure action.
-
-## Samples · From X
-
-> [Xiaoxiaodong (@xiaoxiaodong01)](https://x.com/xiaoxiaodong01/status/2090834371423183135) · 21 August 2026<br>
-> GPT2 × playful tiny figures × simplification × aesthetic prompt × VOL.040<br>
-> The figures are not there merely to be cute. They act as another viewpoint inside the photograph—responding, commenting, or voicing what the scene leaves unsaid.
-
-<table>
-  <tr>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-01.jpg" alt="XXD Panel 040 sample 1"></a></td>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-02.jpg" alt="XXD Panel 040 sample 2"></a></td>
-  </tr>
-  <tr>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-03.jpg" alt="XXD Panel 040 sample 3"></a></td>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-04.jpg" alt="XXD Panel 040 sample 4"></a></td>
-  </tr>
-</table>
-
-<p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135">View the original post and full prompt →</a></p>
-
-These samples demonstrate the 040 aesthetic motive. Their subjects, figure actions, palette, copy, and earlier canvas ratio never become generation references or current defaults.
 
 ## The original brief is authoritative
 

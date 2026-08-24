@@ -24,6 +24,27 @@ XXD Panel 040 مهارة لتوليد الصور مخصّصة لـ Codex وال�
 
 وتنشأ العبارة من المعنى نفسه، كأنها ملاحظة كتبتها إحدى الشخصيات أو فكرة عابرة أو صوت من خارج الكادر.
 
+## نماذج · من X
+
+> [Xiaoxiaodong (@xiaoxiaodong01)](https://x.com/xiaoxiaodong01/status/2090834371423183135) · 21 أغسطس 2026<br>
+> GPT2 × شخصيات صغيرة مرحة × تبسيط × توجيه جمالي × VOL.040<br>
+> لا تظهر الشخصيات لمجرد إضفاء اللطافة؛ بل تمثل منظوراً آخر داخل الصورة، فتستجيب للمشهد أو تعلّق عليه أو تنطق بما تركه من دون قول.
+
+<table>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-01.jpg" alt="نموذج XXD Panel 040 رقم 1"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-02.jpg" alt="نموذج XXD Panel 040 رقم 2"></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-03.jpg" alt="نموذج XXD Panel 040 رقم 3"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-04.jpg" alt="نموذج XXD Panel 040 رقم 4"></a></td>
+  </tr>
+</table>
+
+<p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135">عرض المنشور الأصلي والتوجيه كاملاً ←</a></p>
+
+توضح هذه النماذج الدافع الجمالي لـ 040، ولا تجعل موضوعاتها أو أفعال الشخصيات أو ألوانها أو نصوصها أو نسبة اللوحة القديمة مراجع للتوليد أو قيماً افتراضية حالية.
+
 ## لماذا توجد 040؟
 
 يتحوّل أسلوب «عنصر واقعي＋شخصيات مرسومة» بسهولة إلى قالب ملصقات عام: تتسلق الشخصيات وتجلس وتلوّح مهما كان محتوى الصورة، ويصبح أكبر عنصر مقصوص هو البطل، بينما يكتفي النص بتسمية الشيء أو بعبارة تحفيزية.
@@ -45,27 +66,6 @@ XXD Panel 040 مهارة لتوليد الصور مخصّصة لـ Codex وال�
 - **لون من المصدر وحقل فاتح:** تحمل المرساة اللون الرئيس، وتمنح الخلفية الفاتحة المريحة تبايناً واضحاً للخط الأسود أو الرمادي الداكن.
 - **فراغ فعّال:** يبقى التكوين خفيفاً ودقيقاً وقابلاً للتنفس، من دون زخرفة كثيفة.
 - **عبارة داخل المشهد:** تعمل الكلمات كملاحظة أو فكرة أو صوت خارج الكادر يكمل حركة الشخصيات.
-
-## نماذج · من X
-
-> [Xiaoxiaodong (@xiaoxiaodong01)](https://x.com/xiaoxiaodong01/status/2090834371423183135) · 21 أغسطس 2026<br>
-> GPT2 × شخصيات صغيرة مرحة × تبسيط × توجيه جمالي × VOL.040<br>
-> لا تظهر الشخصيات لمجرد إضفاء اللطافة؛ بل تمثل منظوراً آخر داخل الصورة، فتستجيب للمشهد أو تعلّق عليه أو تنطق بما تركه من دون قول.
-
-<table>
-  <tr>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-01.jpg" alt="نموذج XXD Panel 040 رقم 1"></a></td>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-02.jpg" alt="نموذج XXD Panel 040 رقم 2"></a></td>
-  </tr>
-  <tr>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-03.jpg" alt="نموذج XXD Panel 040 رقم 3"></a></td>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135"><img src="./assets/examples/sample-04.jpg" alt="نموذج XXD Panel 040 رقم 4"></a></td>
-  </tr>
-</table>
-
-<p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135">عرض المنشور الأصلي والتوجيه كاملاً ←</a></p>
-
-توضح هذه النماذج الدافع الجمالي لـ 040، ولا تجعل موضوعاتها أو أفعال الشخصيات أو ألوانها أو نصوصها أو نسبة اللوحة القديمة مراجع للتوليد أو قيماً افتراضية حالية.
 
 ## الموجّه الأصلي هو المرجع الجمالي الوحيد
 
