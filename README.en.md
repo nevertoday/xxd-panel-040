@@ -43,7 +43,18 @@ Copy grows from the same implication, like a figure's annotation, thought, or of
 
 These samples demonstrate the 040 aesthetic motive. Their subjects, figure actions, palette, copy, and earlier canvas ratio never become generation references or current defaults.
 
-## Why it exists
+<!-- xxd-panel-benefit:start -->
+## Quick fit check: is XXD Panel 040 right for you?
+
+| What you need to know | What this style gives you |
+|---|---|
+| **What you will get** | Turn what a photograph is truly saying into one real anchor and a tiny black-line story |
+| **Recognizable signature** | TRUTHFUL ANCHOR · BLACK-LINE FIGURES · MICRO-NARRATIVE · ACTIVE WHITESPACE |
+| **How it respects your source** | Recognizable identity, relationships, structure, and supplied facts stay anchored. Styling reorganizes the visual language instead of replacing your content with an unrelated template. |
+| **Where you can use it** | Create top-bottom, left-right, design-only, and four-device wallpaper outputs in multiple ratios or exact sizes. Delivery changes; the Panel's style identity does not get diluted. |
+<!-- xxd-panel-benefit:end -->
+
+## How it turns your source into a distinctive result
 
 “Real object plus doodle people” easily becomes a sticker template: figures climb, sit, and wave no matter what the source contains; the largest cutout object becomes the subject; copy merely names it or adds a motivational line.
 
@@ -55,7 +66,7 @@ read the facts → find the relationship → distil the implication → select t
 
 If an unrelated photograph could replace the source without materially changing the anchor, figure action, spatial relation, colour, or copy, the result is not 040.
 
-## The 040 visual contract
+## What makes the finished style recognizable
 
 - **Truthful anchor:** retain photographic credibility, material identity, defining contour, and principal source colour rather than cartooning the subject.
 - **At least three identity cues:** contour, pose, direction, proportion, material, colour, opening, negative shape, or relational distance keep the source recognisable.
