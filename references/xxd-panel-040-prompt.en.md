@@ -1,5 +1,13 @@
 # XXD Panel 040 · Full Generation Prompt (English)
 
+## Runtime complete-canvas contract — highest priority
+
+- `TOP_BOTTOM` and `LEFT_RIGHT` default to one complete finished generation using the current source as a high-fidelity edit/reference input. Do not pre-split the job into photographic and design halves.
+- Top-bottom keeps the faithful source in approximately the upper 50% and performs this style transformation below; left-right uses the faithful source in approximately the left 50% and the transformation on the right. Unify both regions through colour, light, rhythm, typography, and meaning.
+- `DESIGN_ONLY` and `WALLPAPER_PACK` use the complete canvas while the source remains an invisible identity/content reference. Recompose every wallpaper separately for its device.
+- `FINAL CANVAS` means the ratio/pixels of the whole finished artwork and must be explicitly resolved before generation; never apply source dimensions silently. `DESIGN FRAME` is used only if a failed complete-canvas retry triggers deterministic composition fallback.
+- Retry a failed complete canvas once against the failed constraint only. Scripted composition is allowed only after that retry still fails, when pixel-identical source preservation is explicitly required, when the active route cannot realise the canvas, or for lossless pixel calibration.
+
 Treat the one currently selected photograph as the sole content source. Each selected ordinary mode produces one independent finished artwork; wallpaper mode produces four separate PNGs for phone, iPad, desktop, and children's watch. Never mix in another photo or combine outputs into an overview.
 
 Use the one or more already resolved modes: photography above and micro-narrative design below, photography left and design right, transformed design only, and/or a four-device wallpaper pack. Paired layouts split exactly 50/50. Design-only and wallpapers contain no visible source photo or seam. Before generation, automatic copy, custom copy, or text-free output—and the target locale whenever copy is present—must already be resolved.
@@ -114,43 +122,27 @@ Remove unused note lines. Text-free output uses only `COPY MODE: NONE — render
 
 ## 7. Modes, dimensions, and wallpaper
 
-Lock one or more modes before generation. Accept one number, multiple numbers separated by `+`, Chinese/English commas or whitespace, mode names, and `全部` / `all`; deduplicate and execute in menu order 1→4. Each selected ordinary mode produces one file and selected wallpaper mode produces four, so `all` yields seven PNGs per source across four sibling mode directories, never an overview. By default, share the same locked source-specific copy verbatim across all selected modes; only explicit per-mode copy instructions create overrides.
+Lock one or more modes and explicitly resolve the whole final canvas for each ordinary mode before generation. Accept original-prompt 3:4, an explicit source-aspect choice, a common ratio, or custom ratio/exact pixels; never apply source dimensions silently.
 
-1. **TOP_BOTTOM:** complete source above, transformed design below, exact equal height. Without an explicit size output `W×2H`.
-2. **LEFT_RIGHT:** complete source left, transformed design right, exact equal width. Without an explicit size output `2W×H`.
-3. **DESIGN_ONLY:** source remains evidence but is invisible; transformed design fills the canvas. Without an explicit size output `W×H`.
-4. **WALLPAPER_PACK:** four separate transformed designs for phone, iPad, desktop, and watch; lock `INDEPENDENT` or `LINKED`.
+1. **TOP_BOTTOM:** generate the confirmed whole canvas once, with the high-fidelity source in approximately the upper half and the 040 transformation below; unify both regions through colour, rhythm, typography, and meaning.
+2. **LEFT_RIGHT:** generate the confirmed whole canvas once, with the high-fidelity source in approximately the left half and the 040 transformation on the right as one finished design.
+3. **DESIGN_ONLY:** use the source only as content and identity evidence; let the transformation fill the confirmed whole canvas with no visible source or reserved panel.
+4. **WALLPAPER_PACK:** four separate transformations for phone, iPad, desktop, and watch; lock `INDEPENDENT` or `LINKED`.
 
-Priority: exact pixels > explicit ratio/destination > source adaptation for ordinary modes. Exact paired height/width on the split axis must be even and may never be silently altered. In multi-select, custom dimensions must be labelled by mode; if one unlabeled size could apply to several modes, ask rather than applying it arbitrarily, while unlabeled ordinary modes remain source-adaptive. The initial brief's 3:4 canvas is historical context, not the current default.
-
-Wallpaper has no silent size default. When the common preset is explicitly chosen use phone `1440×3200`, iPad `2048×2732`, desktop `3840×2160`, and watch `1024×1024`; otherwise use labelled custom dimensions.
+Exact pixels take precedence over an explicit ratio; neither may be inferred silently. Wallpaper presets apply only when the user explicitly chooses them: phone `1440×3200`, iPad `2048×2732`, desktop `3840×2160`, and watch `1024×1024`; otherwise resolve each device.
 
 - **INDEPENDENT:** all four reference only the source and may explore freer compositions.
-- **LINKED:** generate and approve the iPad anchor by default; every derivative directly references the original photo and the same approved anchor. The photo locks content and meaning; the anchor locks only truthful-anchor treatment, doodle grammar, colour, whitespace, handwriting, and humour intensity. Never chain references or resize mechanically.
+- **LINKED:** generate and approve the iPad anchor by default; every other device directly references the original plus that same anchor. Never chain references or resize mechanically.
 
-Append:
-
-```text
-OUTPUT MODE: TOP_BOTTOM | LEFT_RIGHT | DESIGN_ONLY | WALLPAPER_PACK
-DEVICE PROFILE: NONE | PHONE | IPAD | DESKTOP | WATCH
-FINAL SIZE: <WIDTHxHEIGHT>
-DESIGN FRAME: <WIDTHxHEIGHT>
-SOURCE VISIBILITY: UPPER PANEL | LEFT PANEL | REFERENCE ONLY — NOT VISIBLE
-LAYOUT RULE: Fill DESIGN FRAME; render no extra photo panel, seam, frame, or reserved region inside the transformed design.
-WALLPAPER RELATIONSHIP: NONE | INDEPENDENT | LINKED
-ANCHOR DEVICE: NONE | PHONE | IPAD | DESKTOP | WATCH
-REFERENCE ROLE: SOURCE ONLY | SOURCE CONTENT + ANCHOR VISUAL DNA
-```
-
-Keep wallpaper system-UI zones low-information. Render no fake clock, icons, dock, controls, or device frame. Recompose every device separately; never crop another finished wallpaper.
+Use the `FINAL CANVAS` and `SINGLE COMPLETE CANVAS` runtime block defined by the complete-canvas contract at the start of this prompt.
 
 ## 8. Generation and composition boundary
 
-- Do not ask the image model to produce both diptych halves. Prepare photography and transformed design separately, then compose deterministically.
-- The transformed design fills its own frame and contains no additional photo, seam, border, or blank placeholder.
-- Source-adaptive paired modes use the complete source. Under an explicit canvas override, prefer environmental extension; crop only when it preserves the subject and relationship.
-- Generate design-only at its full final canvas, never by enlarging a former half-frame asset.
-- Reopen every result at normal and thumbnail size to inspect meaning, anchor, figure action, copy accuracy, dimensions, and wallpaper safe areas.
+- For paired modes, send the source as a high-fidelity edit/reference input together with the complete 040 aesthetic prompt and locked copy, then generate the whole finished canvas in one job.
+- Treat approximately 50/50 as the composition target; unity of colour, light, rhythm, typography, and meaning takes precedence over mechanical seam precision.
+- Prepare separate photographic and design assets only after one targeted complete-canvas retry still fails, when pixel-identical source preservation is explicitly required, when the active route cannot realise the canvas, or for lossless final calibration.
+- Generate design-only and every wallpaper at its complete final canvas. Recompose wallpapers per device and never crop another result.
+- Reopen every result at normal and thumbnail size to inspect meaning, anchor, figure action, copy accuracy, canvas, and wallpaper safe areas.
 
 ## 9. Pre-generation check
 
