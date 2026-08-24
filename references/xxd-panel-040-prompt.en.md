@@ -1,166 +1,79 @@
-# XXD Panel 040 · Full Generation Prompt (English)
+# XXD Panel 040 | Runtime Adapter (English)
 
-## Runtime complete-canvas contract — highest priority
+This is not a second aesthetic prompt. Read and use `references/040-source.md` in full and verbatim before generation; it is the sole creative and aesthetic authority for Panel 040. This file only appends the current user's runtime variables.
 
-- `TOP_BOTTOM` and `LEFT_RIGHT` default to one complete finished generation using the current source as a high-fidelity edit/reference input. Do not pre-split the job into photographic and design halves.
-- Top-bottom keeps the faithful source in approximately the upper 50% and performs this style transformation below; left-right uses the faithful source in approximately the left 50% and the transformation on the right. Unify both regions through colour, light, rhythm, typography, and meaning.
-- `DESIGN_ONLY` and `WALLPAPER_PACK` use the complete canvas while the source remains an invisible identity/content reference. Recompose every wallpaper separately for its device.
-- `FINAL CANVAS` means the ratio/pixels of the whole finished artwork and must be explicitly resolved before generation; never apply source dimensions silently. `DESIGN FRAME` is used only if a failed complete-canvas retry triggers deterministic composition fallback.
-- Retry a failed complete canvas once against the failed constraint only. Scripted composition is allowed only after that retry still fails, when pixel-identical source preservation is explicitly required, when the active route cannot realise the canvas, or for lossless pixel calibration.
+## Non-authoring boundary
 
-### Model priority and credentials
+- Do not summarize, translate, expand, polish, or “improve” the source brief.
+- Do not add a palette plan, material plan, composition theory, whitespace rule, title, microcopy package, or aesthetic motive.
+- Preserve the source brief's own colour behaviour exactly, whether it derives colour from the photograph or specifies a fixed family.
+- Let the image model execute the source brief's existing text logic. The outer Skill does not pre-write copy.
+- Current modes and sizes override only the legacy 3:4 top-bottom container, never the remaining aesthetic rules.
 
-- **Prefer GPT Image 2.** When GPT Image 2 is available through the current built-in image tool or a configured compatible route, use it first for the high-fidelity reference/edit and complete-canvas generation required by this prompt.
-- Also support Seedance 5.0 Pro, Nano Banana Pro (Gemini Image Pro), Nano Banana 2 (Gemini Image Flash), or another compatible bitmap model only when the actual route can preserve the source, realise the whole finished canvas, render the target-language text, and accept the multiple references needed by a linked wallpaper pack.
-- An alternative model changes only the generation route. It must not change this prompt's modes, canvas, source visibility, copy, locale, wallpaper relationship, or complete-canvas-first / composition-fallback-only logic. Do not silently downgrade a hard requirement.
-- If no suitable route is available, ask the user to enable an image-generation tool or provide an API key. User-provided credentials may be used for the current task, but never echo, display, log, or expose their value in chat, prompts, or diagnostics. Do not persist them or modify global route configuration unless explicitly requested.
-- Judge availability by actual image capability, not by a provider name or one missing environment variable.
-
-Treat the one currently selected photograph as the sole content source. Each selected ordinary mode produces one independent finished artwork; wallpaper mode produces four separate PNGs for phone, iPad, desktop, and children's watch. Never mix in another photo or combine outputs into an overview.
-
-Use the one or more already resolved modes: photography above and micro-narrative design below, photography left and design right, transformed design only, and/or a four-device wallpaper pack. Paired layouts are an evenly divided two-panel composition — stacked or side by side — with the two panels visually about equal. Minor deviation is acceptable unless the user explicitly requires pixel-exact halves. Design-only and wallpapers contain no visible source photo or seam. Before generation, automatic copy, custom copy, or text-free output—and the target locale whenever copy is present—must already be resolved.
-
-The area containing the truthful real-world subject and black-line figures is called the **transformed frame** below.
-
-## 0. Aesthetic motive lock
-
-Mode, size, and device may change placement and aspect ratio but never the 040 core:
-
-**the source's most memorable subject, action, relationship, contrast, emotional instant, or symbol → one recognisable and materially truthful anchor → a few tiny black-line figures that respond to, amplify, or gently reverse that meaning → a source-derived light field and colour emphasis → generous active whitespace → one handwritten note, thought, or voice-over that makes the viewer understand the photograph anew**.
-
-Do not mechanically select the largest object. First decide what the photograph is truly about, then select the real subject or inseparable relationship that best carries its spirit. The result must feel like a clever, light, evidence-based reinterpretation—not a cutout object surrounded by stickers.
-
-If an unrelated photograph could replace the source without materially changing the anchor, figure interaction, spatial relation, colour, or copy, the result has failed. Strictly avoid arbitrary climbing, sitting, or waving figures; generic cute interaction; doodle crowds; clip art; children's-book cartoons; emoji faces; dense decoration; scrapbook shadows; and advertising templates.
-
-Generate every visual through available bitmap generation or editing and deliver PNG. “Black-line doodle”, “handwritten copy”, and “flat composition” describe appearance only; they never authorise SVG, HTML, Canvas, or programmatic drawing as a substitute.
-
-## 1. Two roles for the same photograph
-
-1. **Photographic original in paired modes:** preserve structure, identity, material, natural light, perspective, and source colour atmosphere. Allow only restrained editorial grading. Under source adaptation, place the complete source in an equal-sized panel without crop, stretch, or repainting.
-2. **Evidence for the transformed frame:** supply the semantic core, real anchor, contour, pose, direction, proportion, material, spatial relation, defining negative shape, principal colours, and grounded implication. Design-only and wallpapers use only this role; the photograph itself is not visible.
-
-The sole permitted second visual reference is an approved anchor wallpaper in a `LINKED` pack. It locks family resemblance only and contributes no new content; the source photo remains the factual authority.
-
-## 2. Private interpretation method
-
-Complete internally without printing analysis:
-
-**observe facts → find the relationship → distil the implication → select the truthful anchor → design figure interaction → extract colour → write copy → test the binding**
-
-1. Record only visible subjects, actions, directions, distances, occlusions, materials, light, and spatial relationships.
-2. Decide whether the memorable core is the object itself or a relationship such as waiting, approaching, supporting, missing, opposing, cycling, losing balance, protecting, or a scale contrast.
-3. Distil one semantic core grounded in the first two levels. Do not invent biography, location, belonging, ownership, events, or psychology.
-4. Select one real anchor; keep multiple real elements only for an inseparable relation. Lock at least three source-specific identity cues.
-5. Make one to five miniature figures interact directly with the anchor's contour, openings, structure, direction, scale, or void.
-6. Make the copy complete the same meaning rather than introduce another theme.
-
-## 3. Photographic region (paired modes only)
-
-- Preserve real structure, proportions, face, posture, material, natural light, perspective, and source colour atmosphere.
-- Apply only restrained exposure, contrast, highlight, shadow, temperature, and saturation refinement for a lifestyle magazine, independent publication, or art-photography finish.
-- When an explicit non-adaptive frame needs more space, extend only plausible sky, ground, water, wall, or environment with continuous light, grain, perspective, and colour.
-- Never stretch, squash, distort, change clothing, rebuild facial features, alter posture, or replace identity. Avoid aggressive crop.
-- Place no title, doodle figure, sticker, number, or typography in the photographic region.
-- Avoid HDR, excessive skin smoothing or sharpening, cyber colour, heavy filters, and visible generative extension.
-
-## 4. Transformed frame: truthful anchor
-
-- Keep photographic credibility, material identity, and defining colour. The anchor may be isolated, reframed, gently relit, or proportionally emphasised, but never flattened into a cartoon or replaced by a generic prop.
-- Preserve at least three cues across contour, pose/orientation, proportion, material, colour, overlap, opening, negative shape, connection, or relational distance.
-- For people preserve recognisable silhouette, posture, broad clothing shape, and action; for animals preserve body rhythm, head direction, and defining outline; for plants preserve growth direction and branch/leaf-mass relation; for food preserve form, texture, and cut surface; for architecture preserve skyline, openings, and defining structure; for objects and vehicles preserve functional outline, negative shape, and direction; for landscapes choose one specific real terrain, rock, body of water, cloud, tree, or other anchor capable of carrying the implication.
-- Remove background noise unrelated to the meaning, but retain the contact, scale, direction, or relationship that supports it.
-- The anchor carries the main colour and material truth and remains the only principal focus. Figures, type, and auxiliary lines serve it.
-
-## 5. Black-line doodle figures
-
-- Normally use one to five minimal figures in thin, slightly naive black or dark-grey hand-drawn lines.
-- Reduce anatomy to head, torso, limbs, gesture, balance, and only necessary props. Their action must remain legible at thumbnail size.
-- Every pose must answer: how does it respond to, amplify, explain, or reverse the source's core relationship? Delete it when there is no answer.
-- Figures may inspect, carry, support, repair, measure, listen, wait, follow, avoid, balance, cross, or borrow the anchor's structure only when that action serves the meaning.
-- Treat contour, openings, surface, edge, direction, and scale as a real stage. Do not paste figures beside the anchor in empty suspension.
-- Render no detailed faces, clothing, shadows, or coloured cartoon bodies; avoid thick comic outlines, glossy vector mascots, emoji, sticker borders, repeated poses, and decorative crowds.
-
-## 6. Colour, whitespace, and handwritten copy
-
-### 6.1 Colour and space
-
-- Use ivory, warm white, pale grey, another light neutral, or the source's most comfortable light colour as the ground.
-- Let the real anchor carry the source's most distinctive and spirited colours. Clarify, brighten, and reorganise them without severing their source relation.
-- Keep figures and most type black or dark grey. When useful, one small source-derived accent may connect anchor, figures, and copy.
-- Build rhythm through scale, position, distance, and generous active whitespace. Do not manufacture design through complex texture, borders, stacked colour blocks, or filled space.
-- Avoid neon, candy-cartoon colour, muddy grey, unsupported complements, continuous gradients, glassmorphism, obvious 3D, floating cards, and commercial UI.
-
-### 6.2 Copy logic
-
-Copy behaves like a figure's annotation, thought, or off-screen remark and completes the narrative with the anchor and action.
-
-Priority: explicit text-free request > exact finished user copy > editable user direction or draft > source-derived automatic copy.
-
-- Automatic copy reads literal fact, relational tension, and grounded implication, then uses precise naming, understatement, double meaning, light humour, or a small reversal to produce one extremely short line.
-- Do not directly name the visible object. Avoid advertising slogans, inspirational quotes, sentimental backstory, forced puns, or generic “DREAM / MEMORY / JOURNEY” language.
-- Apply the unrelated-image swap test and rewrite copy that survives on another image.
-- Prefer one phrase or very short sentence, with one to three tiny notes only when useful. Every string extends one semantic core.
-- Preserve finished user wording verbatim without rewriting, translating, adding, or deleting. Refine a direction or draft only within permission.
-- Never invent years, places, serial numbers, or archival facts.
-
-Locale priority is **target market/audience > requested output language > direction language; if none is explicit, ask before generation**. Localise by transcreation using native wording, rhetoric, punctuation, spacing, shaping, and semantic line breaks. Never infer language from faces, clothing, scenery, or signs.
-
-### 6.3 Typographic behaviour
-
-- Let type follow the anchor contour, figure action, guide line, or whitespace rhythm so it feels written inside the scene.
-- Handwriting may be light, intelligent, and slightly naive but must remain accurate and readable; never become nursery lettering, a graffiti wall, or pseudo-text.
-- The main line is clearly larger than micro notes but need not become a conventional giant poster headline.
-- Avoid title boxes, web labels, shadows, outlines, gradient type, 3D type, and meaningless decorative lettering.
-
-Append locked copy as:
+## Append-only runtime template
 
 ```text
-COPY MODE: REQUIRED
-COPY ORIGIN: USER_EXACT | USER_DIRECTION | SOURCE_DERIVED
-COPY LOCALE: <resolved locale>
-COPY INTENT — INSTRUCTION ONLY, NEVER RENDER: <semantic core and intended turn>
-MAIN LINE: <locked exact string>
-MICRO NOTE 1: <optional>
-MICRO NOTE 2: <optional>
-MICRO NOTE 3: <optional>
-COPY RULE: Render only MAIN LINE and populated MICRO NOTE strings, each exactly once. Instruction fields are never visible. Do not rewrite, translate, spell-correct, duplicate, or add text. Respect native shaping, punctuation, spacing, and semantic line breaks.
+RUNTIME OVERRIDE — CURRENT DELIVERY ONLY
+
+The original brief's initial 3:4 top-bottom arrangement is its legacy presentation container.
+For this output, override only: final canvas, source/design-region placement,
+source visibility, and device dimensions.
+Except for those container variables, every design-transformation, composition,
+colour, material, whitespace, text-character and typography instruction in the
+original brief remains authoritative.
+
+Interpret “upper photo” as SOURCE REFERENCE.
+Interpret “lower half” as DESIGN REGION.
+
+OUTPUT MODE: TOP_BOTTOM | LEFT_RIGHT | DESIGN_ONLY | WALLPAPER_PACK
+FINAL CANVAS: <ratio and/or exact WIDTHxHEIGHT>
+DEVICE PROFILE: NONE | PHONE | IPAD | DESKTOP | WATCH
+SOURCE VISIBILITY: UPPER HALF | LEFT HALF | REFERENCE ONLY — NOT VISIBLE
+DESIGN REGION: LOWER HALF | RIGHT HALF | FULL CANVAS
+PAIRED RELATION: FOLLOW THE ORIGINAL BRIEF'S PAIRED-PROPORTION RULE | NOT APPLICABLE
+WALLPAPER RELATIONSHIP: NONE | INDEPENDENT | LINKED
+
+Colour follows the original brief's existing colour instructions exactly.
+Unless the user explicitly requests a colour change, do not add, replace,
+summarize, or re-plan any palette.
 ```
 
-Remove unused note lines. Text-free output uses only `COPY MODE: NONE — render no text or pseudo-text anywhere.`
+Append exactly one text block after the runtime block. If the user has other explicit requirements, append those verbatim after the text block at the very end.
 
-## 7. Modes, dimensions, and wallpaper
+### Text generated from the original prompt
 
-Lock one or more modes and explicitly resolve the whole final canvas for each ordinary mode before generation. Accept original-prompt 3:4, an explicit source-aspect choice, a common ratio, or custom ratio/exact pixels; never apply source dimensions silently.
+```text
+TEXT MODE: ORIGINAL_PROMPT_GENERATED
+TEXT LANGUAGE: <user-confirmed language or locale>
 
-1. **TOP_BOTTOM:** generate the confirmed whole canvas once, with the high-fidelity source in approximately the upper half and the 040 transformation below; unify both regions through colour, rhythm, typography, and meaning.
-2. **LEFT_RIGHT:** generate the confirmed whole canvas once, with the high-fidelity source in approximately the left half and the 040 transformation on the right as one finished design.
-3. **DESIGN_ONLY:** use the source only as content and identity evidence; let the transformation fill the confirmed whole canvas with no visible source or reserved panel.
-4. **WALLPAPER_PACK:** four separate transformations for phone, iPad, desktop, and watch; lock `INDEPENDENT` or `LINKED`.
+The image model generates wording by following the original brief's existing
+text-generation logic. The outer Skill supplies no title, microcopy, copy
+package, or additional semantic framework.
+```
 
-Exact pixels take precedence over an explicit ratio; neither may be inferred silently. Wallpaper presets apply only when the user explicitly chooses them: phone `1440×3200`, iPad `2048×2732`, desktop `3840×2160`, and watch `1024×1024`; otherwise resolve each device.
+### User-exact text
 
-- **INDEPENDENT:** all four reference only the source and may explore freer compositions.
-- **LINKED:** generate and approve the iPad anchor by default; every other device directly references the original plus that same anchor. Never chain references or resize mechanically.
+```text
+TEXT MODE: USER_EXACT
+TEXT LANGUAGE: <user-confirmed language or locale>
+TEXT: “<user's exact characters>”
 
-Use the `FINAL CANVAS` and `SINGLE COMPLETE CANVAS` runtime block defined by the complete-canvas contract at the start of this prompt.
+Use the supplied text verbatim. Do not rewrite, translate, spell-correct, or add
+any other wording. Typography and placement still follow the original brief.
+```
 
-## 8. Generation and composition boundary
+### No text
 
-- For paired modes, send the source as a high-fidelity edit/reference input together with the complete 040 aesthetic prompt and locked copy, then generate the whole finished canvas in one job.
-- Treat approximately 50/50 as the composition target; unity of colour, light, rhythm, typography, and meaning takes precedence over mechanical seam precision.
-- Prepare separate photographic and design assets only after one targeted complete-canvas retry still fails, when pixel-identical source preservation is explicitly required, when the active route cannot realise the canvas, or for lossless final calibration.
-- Generate design-only and every wallpaper at its complete final canvas. Recompose wallpapers per device and never crop another result.
-- Reopen every result at normal and thumbnail size to inspect meaning, anchor, figure action, copy accuracy, canvas, and wallpaper safe areas.
+```text
+TEXT MODE: NONE
+Render no letters, characters, numbers, titles, labels, logos, or pseudo-text anywhere.
+```
 
-## 9. Pre-generation check
+See `SKILL.md` for preflight, multi-size, multi-mode, wallpaper, execution, and output rules. Every final generation request has this order:
 
-1. The call processes one clear source and the output count matches the selected mode set: one per ordinary mode, four for selected wallpaper mode, and seven across four sibling directories for `all`.
-2. The memorable core is evidence-based, not a mechanical choice of the largest object.
-3. The truthful anchor preserves at least three source-specific cues, real material, and principal colour.
-4. Every figure serves the same implication; deleting pure decoration should make the scene more accurate, not merely emptier.
-5. The ground is light and comfortable, the anchor carries colour, black-line figures and type contrast cleanly, and whitespace remains active.
-6. Automatic copy is short, light, clever, and source-bound without directly naming the object; custom copy is verbatim; text-free output contains no pseudo-text.
-7. Paired layouts read as two visually about-equal panels with faithful photography; source-hidden outputs contain no photo, seam, or placeholder.
-8. A linked anchor passes inspection before fan-out; all derivatives reference the same anchor plus the source and are separately recomposed.
-9. The deliverable is a real PNG bitmap, not SVG, HTML, Canvas, or programmatic art.
-10. There is no collage, sticker look, template look, logo, watermark, UI, device mockup, or unrelated decoration.
+```text
+complete verbatim 040-source.md
++ current runtime override block
++ exactly one text-mode block
++ any other explicit user requirement, verbatim, at the very end
+```
