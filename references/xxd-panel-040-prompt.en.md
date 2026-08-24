@@ -8,9 +8,17 @@
 - `FINAL CANVAS` means the ratio/pixels of the whole finished artwork and must be explicitly resolved before generation; never apply source dimensions silently. `DESIGN FRAME` is used only if a failed complete-canvas retry triggers deterministic composition fallback.
 - Retry a failed complete canvas once against the failed constraint only. Scripted composition is allowed only after that retry still fails, when pixel-identical source preservation is explicitly required, when the active route cannot realise the canvas, or for lossless pixel calibration.
 
+### Model priority and credentials
+
+- **Prefer GPT Image 2.** When GPT Image 2 is available through the current built-in image tool or a configured compatible route, use it first for the high-fidelity reference/edit and complete-canvas generation required by this prompt.
+- Also support Seedance 5.0 Pro, Nano Banana Pro (Gemini Image Pro), Nano Banana 2 (Gemini Image Flash), or another compatible bitmap model only when the actual route can preserve the source, realise the whole finished canvas, render the target-language text, and accept the multiple references needed by a linked wallpaper pack.
+- An alternative model changes only the generation route. It must not change this prompt's modes, canvas, source visibility, copy, locale, wallpaper relationship, or complete-canvas-first / composition-fallback-only logic. Do not silently downgrade a hard requirement.
+- If no suitable route is available, ask the user to enable an image-generation tool or provide an API key. User-provided credentials may be used for the current task, but never echo, display, log, or expose their value in chat, prompts, or diagnostics. Do not persist them or modify global route configuration unless explicitly requested.
+- Judge availability by actual image capability, not by a provider name or one missing environment variable.
+
 Treat the one currently selected photograph as the sole content source. Each selected ordinary mode produces one independent finished artwork; wallpaper mode produces four separate PNGs for phone, iPad, desktop, and children's watch. Never mix in another photo or combine outputs into an overview.
 
-Use the one or more already resolved modes: photography above and micro-narrative design below, photography left and design right, transformed design only, and/or a four-device wallpaper pack. Paired layouts split exactly 50/50. Design-only and wallpapers contain no visible source photo or seam. Before generation, automatic copy, custom copy, or text-free output—and the target locale whenever copy is present—must already be resolved.
+Use the one or more already resolved modes: photography above and micro-narrative design below, photography left and design right, transformed design only, and/or a four-device wallpaper pack. Paired layouts are an evenly divided two-panel composition — stacked or side by side — with the two panels visually about equal. Minor deviation is acceptable unless the user explicitly requires pixel-exact halves. Design-only and wallpapers contain no visible source photo or seam. Before generation, automatic copy, custom copy, or text-free output—and the target locale whenever copy is present—must already be resolved.
 
 The area containing the truthful real-world subject and black-line figures is called the **transformed frame** below.
 
@@ -152,7 +160,7 @@ Use the `FINAL CANVAS` and `SINGLE COMPLETE CANVAS` runtime block defined by the
 4. Every figure serves the same implication; deleting pure decoration should make the scene more accurate, not merely emptier.
 5. The ground is light and comfortable, the anchor carries colour, black-line figures and type contrast cleanly, and whitespace remains active.
 6. Automatic copy is short, light, clever, and source-bound without directly naming the object; custom copy is verbatim; text-free output contains no pseudo-text.
-7. Paired layouts are exactly 50/50 with faithful photography; source-hidden outputs contain no photo, seam, or placeholder.
+7. Paired layouts read as two visually about-equal panels with faithful photography; source-hidden outputs contain no photo, seam, or placeholder.
 8. A linked anchor passes inspection before fan-out; all derivatives reference the same anchor plus the source and are separately recomposed.
 9. The deliverable is a real PNG bitmap, not SVG, HTML, Canvas, or programmatic art.
 10. There is no collage, sticker look, template look, logo, watermark, UI, device mockup, or unrelated decoration.
