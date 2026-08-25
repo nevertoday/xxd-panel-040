@@ -16,17 +16,7 @@
 
 </div>
 
-> TRUTHFUL ANCHOR · BLACK-LINE FIGURES · MICRO-NARRATIVE · ACTIVE WHITESPACE
-
-XXD Panel 040 is an image-generation skill for Codex and compatible agents. It does not simply add cute doodles to a photograph. It first decides what is most worth remembering, preserves one truthful and materially credible visual anchor, then lets a few black-line figures respond to, amplify, or gently reverse the source story.
-
-Copy grows from the same implication, like a figure's annotation, thought, or off-screen remark.
-
 ## Samples · From X
-
-> [Xiaoxiaodong (@xiaoxiaodong01)](https://x.com/xiaoxiaodong01/status/2090834371423183135) · 21 August 2026<br>
-> GPT2 × playful tiny figures × simplification × aesthetic prompt × VOL.040<br>
-> The figures are not there merely to be cute. They act as another viewpoint inside the photograph—responding, commenting, or voicing what the scene leaves unsaid.
 
 <table>
   <tr>
@@ -39,9 +29,19 @@ Copy grows from the same implication, like a figure's annotation, thought, or of
   </tr>
 </table>
 
+> [Xiaoxiaodong (@xiaoxiaodong01)](https://x.com/xiaoxiaodong01/status/2090834371423183135) · 21 August 2026<br>
+> GPT2 × playful tiny figures × simplification × aesthetic prompt × VOL.040<br>
+> The figures are not there merely to be cute. They act as another viewpoint inside the photograph—responding, commenting, or voicing what the scene leaves unsaid.
+
 <p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090834371423183135">View the original post and full prompt →</a></p>
 
 These samples demonstrate the 040 aesthetic motive. Their subjects, figure actions, palette, copy, and earlier canvas ratio never become generation references or current defaults.
+
+> TRUTHFUL ANCHOR · BLACK-LINE FIGURES · MICRO-NARRATIVE · ACTIVE WHITESPACE
+
+XXD Panel 040 is an image-generation skill for Codex and compatible agents. It does not simply add cute doodles to a photograph. It first decides what is most worth remembering, preserves one truthful and materially credible visual anchor, then lets a few black-line figures respond to, amplify, or gently reverse the source story.
+
+Copy grows from the same implication, like a figure's annotation, thought, or off-screen remark.
 
 <!-- xxd-panel-benefit:start -->
 ## Quick fit check: is XXD Panel 040 right for you?
