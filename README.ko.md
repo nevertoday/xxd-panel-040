@@ -64,6 +64,21 @@
   </tr>
 </table>
 
+## 추가 3:4 상하 구성 예시
+
+위 16:9 예시와 같은 네 개의 독립 소스를 완전한 3:4 상하 캔버스로 다시 생성했습니다. 위쪽은 현실 사진을 유지하고 아래쪽은 Panel 040의 원본 프롬프트에 따라 재구성합니다. 영어 문구는 각 사진의 내용·분위기·함의에서만 생성했으며 모든 결과를 개별 검수했습니다.
+
+<table>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-09.png" alt="XXD Panel 040 추가 상하 예시 1"></td>
+    <td width="50%"><img src="./assets/examples/sample-10.png" alt="XXD Panel 040 추가 상하 예시 2"></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-11.png" alt="XXD Panel 040 추가 상하 예시 3"></td>
+    <td width="50%"><img src="./assets/examples/sample-12.png" alt="XXD Panel 040 추가 상하 예시 4"></td>
+  </tr>
+</table>
+
 > [샤오샤오둥（@xiaoxiaodong01）](https://x.com/xiaoxiaodong01/status/2090834371423183135) · 2026년 8월 21일<br>
 > GPT2 × 재치 있는 작은 인물 × 단순화 × 미학 프롬프트 × VOL.040<br>
 > 작은 인물은 단지 귀여움을 더하려고 등장하지 않습니다. 사진 속 또 하나의 시선이 되어 장면에 응답하고, 한마디를 보태거나, 화면이 미처 말하지 않은 생각을 대신 전합니다.
