@@ -4,7 +4,7 @@
 
 <div align="center">
 
-# 🦁 XXD Panel 040
+# 🦁 XXD Panel 040｜Doodle Companion
 
 ### Turn what a photograph is truly saying into one real anchor and a tiny black-line story
 

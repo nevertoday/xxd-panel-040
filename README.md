@@ -4,7 +4,7 @@
 
 <div align="center">
 
-# 🦁 XXD Panel 040
+# 🦁 XXD Panel 040｜涂鸦同伴
 
 ### 把照片真正讲的故事，变成一个真实锚点和一场黑线微型戏
 
