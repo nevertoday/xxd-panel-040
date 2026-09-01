@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="./assets/banner.svg" alt="XXD Panel 040 项目横幅" width="1200">
-</p>
-
 <div align="center">
 
 # 🦁 XXD Panel 040｜涂鸦同伴
@@ -321,7 +317,6 @@ xxd-panel-040/
 ├── README.md / README.en.md / README.ja.md / README.ko.md / README.ar.md
 ├── agents/openai.yaml
 ├── assets/
-│   ├── banner.svg
 │   └── examples/
 ├── scripts/
 │   ├── compose_panel.py

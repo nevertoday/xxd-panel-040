@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="./assets/banner.svg" alt="لافتة مشروع XXD Panel 040" width="1200">
-</p>
-
 <div align="center" dir="rtl">
 
 # 🦁 XXD Panel 040｜رفيق الخربشة
@@ -322,7 +318,6 @@ xxd-panel-040/
 ├── SKILL.md
 ├── README.md / README.en.md / README.ja.md / README.ko.md / README.ar.md
 ├── agents/openai.yaml
-├── assets/banner.svg + examples/
 ├── scripts/compose_panel.py + configured_imagegen.py
 └── references/xxd-panel-040-prompt.zh-CN.md + xxd-panel-040-prompt.en.md + 040-source.md
 ```
