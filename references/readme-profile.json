@@ -1,0 +1,84 @@
+{
+  "skill_description": "XXD Panel 040｜Doodle Companion: keeps the one real subject that best tells the photo's story — its material and identity intact, colours lightly purified — and surrounds it with a few minimal black-line doodle figures whose actions answer, enlarge or flip that story. A cream or pale background leaves plenty of whitespace; the figures and a very short, light, witty handwritten line (a pun, a thought or an aside, never the object's name) are in black or dark-grey line. Outputs PNG top-bottom or left-right comparisons, design-only images, or phone/tablet/desktop/watch wallpapers, from one photo or a folder. Use when the user invokes xxd-panel-040 or asks for real objects with doodle people, playful stick-figure stories or witty editorial posters from a photo.",
+  "short_description": "涂鸦同伴：保留照片里最值得记住的真实主体，再加几个黑线小人演一场微型戏",
+  "zh-CN": {
+    "name": "涂鸦同伴",
+    "tagline": "留下照片里最值得记住的真实主体，让几个黑线小人围着它演一场小戏。",
+    "look": "画面中心是从照片里挑出的一个真实主体，保留它的材质和样子，角度、光线和颜色稍作优化，和主题无关的东西被舍掉。主体周围有几个极简的黑线涂鸦小人，他们的动作照着照片的语境来：回应它、放大它，或者把它的故事反过来讲。背景是米白或浅色，大量留白；主体带着主要颜色，小人和文字是黑色或深灰细线。文字是一句很短、轻松、带点幽默或双关的手写话，像小人的念头或画外音，不写物体名称。",
+    "traits": ["真实主体", "黑线小人", "微型叙事", "大量留白", "生活故事"],
+    "good": [
+      "有一个明确主角的物件或食物：一个咖啡杯、一块蛋糕、一只拖鞋、一棵仙人掌",
+      "带点反差或小幽默的瞬间：巨大的西瓜、睡着的猫、堆满的行李箱",
+      "想做成轻松社交图、文章配图或趣味海报的照片"
+    ],
+    "poor": [
+      "没有单一主角的大场景或人很多的照片，小人不知道围着谁",
+      "严肃或沉重的主题，轻松调侃的文字可能不合适",
+      "想要卡通贴纸、满画面装饰或全部重画成插画的效果"
+    ]
+  },
+  "en": {
+    "name": "Doodle Companion",
+    "tagline": "Keeps the one real thing in your photo most worth remembering and lets a few black-line doodle people act out a small story around it.",
+    "look": "At the centre is one real subject chosen from the photo, still looking like itself in material and form, with its angle, light and colour gently improved and anything unrelated to the story left out. A few minimal black-line doodle figures gather around it, acting on what the photo is about: answering it, enlarging it or turning its story upside down. The background is cream or pale with plenty of space; the subject carries the colour while the figures and text are fine black or dark-grey lines. The text is one short, easy, slightly funny or punning handwritten line, like a figure's thought or an aside, never just the object's name.",
+    "traits": ["Real subject", "Black-line figures", "Tiny story", "Lots of whitespace", "Everyday tales"],
+    "good": [
+      "Objects or food with one clear star: a coffee cup, a slice of cake, a slipper, a cactus",
+      "Moments with a bit of contrast or humour: a huge watermelon, a sleeping cat, an overstuffed suitcase",
+      "Photos you want as a light social post, an article image or a playful poster"
+    ],
+    "poor": [
+      "Wide scenes or crowds without a single lead, where the figures have nothing to gather around",
+      "Serious or painful subjects, where a light joke may not fit",
+      "Requests for cartoon stickers, decoration across the whole image or a fully redrawn illustration"
+    ]
+  },
+  "ja": {
+    "name": "落書きの相棒",
+    "tagline": "写真でいちばん覚えておきたい実物を残し、黒い線の小人たちがそのまわりで小さな劇を演じます。",
+    "look": "中心には写真から選んだ実物の主役が一つ、素材感も姿もそのままに置かれ、角度、光、色は少し整え、物語に関係のないものは省きます。そのまわりには、ごくシンプルな黒線の落書きの小人が数人いて、写真の文脈に合わせて動きます。主役に応えたり、話を大きくしたり、逆さまにしたり。背景は生成りか淡い色で余白をたっぷりとり、色は主役が担い、小人と文字は黒か濃いグレーの細い線です。文字は短く軽い、少しユーモアやだじゃれのある手書きの一言で、小人のつぶやきや心の声のように入り、物の名前は書きません。",
+    "traits": ["実物の主役", "黒線の小人", "小さな物語", "たっぷりの余白", "暮らしの話"],
+    "good": [
+      "主役がはっきりした物や食べ物：コーヒーカップ、ケーキ一切れ、スリッパ、サボテン",
+      "ちょっとした意外さやユーモアのある瞬間：巨大なスイカ、眠る猫、ぱんぱんのスーツケース",
+      "気軽な SNS 投稿、記事の挿絵、遊び心のあるポスターにしたい写真"
+    ],
+    "poor": [
+      "主役が一つに定まらない広い場面や人の多い写真（小人が誰のまわりに集まればよいかわかりません）",
+      "深刻な話題や重いテーマ（軽い冗談の一言が合わないことがあります）",
+      "キャラクターステッカー、画面いっぱいの装飾、すべて描き直したイラストを求める場合"
+    ]
+  },
+  "ko": {
+    "name": "낙서 친구",
+    "tagline": "사진에서 가장 기억할 만한 실제 대상을 남기고, 검은 선 낙서 사람들이 그 주위에서 작은 연극을 펼칩니다.",
+    "look": "가운데에는 사진에서 고른 실제 주인공 하나가 재질과 모습을 그대로 지닌 채 놓이고, 각도와 빛과 색은 조금 다듬고 이야기와 상관없는 것은 덜어 냅니다. 그 주위에 아주 단순한 검은 선 낙서 사람 몇 명이 사진의 맥락에 맞춰 움직입니다. 주인공에게 대답하거나, 이야기를 키우거나, 거꾸로 뒤집기도 합니다. 배경은 미색이나 연한 색으로 여백이 넉넉하고, 색은 주인공이 맡으며 사람과 글자는 검정이나 짙은 회색 가는 선입니다. 글자는 짧고 가벼우며 약간의 유머나 말장난이 있는 손글씨 한마디로, 낙서 사람의 속마음이나 혼잣말처럼 들어가고 물건 이름은 쓰지 않습니다.",
+    "traits": ["실제 주인공", "검은 선 사람", "작은 이야기", "넉넉한 여백", "생활 이야기"],
+    "good": [
+      "주인공이 분명한 사물이나 음식: 커피잔, 케이크 한 조각, 슬리퍼, 선인장",
+      "작은 반전이나 유머가 있는 순간: 거대한 수박, 잠든 고양이, 꽉 찬 여행 가방",
+      "가벼운 SNS 게시물, 글 삽화, 재미있는 포스터로 쓰고 싶은 사진"
+    ],
+    "poor": [
+      "주인공이 하나로 정해지지 않는 넓은 장면이나 사람이 많은 사진(낙서 사람이 누구 곁에 모여야 할지 모릅니다)",
+      "진지하거나 무거운 주제(가벼운 농담 한마디가 어울리지 않을 수 있습니다)",
+      "캐릭터 스티커, 화면 가득한 장식, 전부 다시 그린 일러스트를 원하는 경우"
+    ]
+  },
+  "ar": {
+    "name": "رفيق الخربشة",
+    "tagline": "يُبقي الشيء الحقيقي الأجدر بالتذكّر في صورتك، ويترك شخوصاً مخربشة بخطوط سوداء تمثّل حوله حكاية صغيرة.",
+    "look": "في المركز عنصر حقيقي واحد مختار من الصورة، يبقى على هيئته ومادته، مع تحسين خفيف لزاويته وضوئه ولونه وحذف ما لا يخدم الحكاية. حوله بضعة شخوص مخربشة بخطوط سوداء بسيطة جداً، تتصرف وفق ما تقوله الصورة: تردّ عليها أو تضخّمها أو تقلب حكايتها. الخلفية بلون الكريم أو فاتحة مع فراغ واسع، ويحمل العنصر الألوان بينما تأتي الشخوص والنص بخطوط رفيعة سوداء أو رمادية داكنة. النص سطر قصير خفيف فيه شيء من الدعابة أو التورية بخط اليد، كأنه خاطرة أحد الشخوص أو تعليق جانبي، لا مجرد اسم الشيء.",
+    "traits": ["عنصر حقيقي", "شخوص بخط أسود", "حكاية صغيرة", "فراغ واسع", "حكايات يومية"],
+    "good": [
+      "أشياء أو أطعمة لها بطل واضح: فنجان قهوة، قطعة كعك، شبشب، صبّار",
+      "لحظات فيها مفارقة أو دعابة: بطيخة ضخمة، قطة نائمة، حقيبة سفر محشوة",
+      "صور تريدها منشوراً خفيفاً على وسائل التواصل أو صورة لمقال أو ملصقاً مرحاً"
+    ],
+    "poor": [
+      "مشاهد واسعة أو حشود بلا بطل واحد، فلا تعرف الشخوص حول من تجتمع",
+      "موضوعات جادة أو مؤلمة قد لا تناسبها الدعابة الخفيفة",
+      "طلب ملصقات كرتونية أو زخرفة تملأ الصورة أو رسم يعيد كل شيء من جديد"
+    ]
+  }
+}

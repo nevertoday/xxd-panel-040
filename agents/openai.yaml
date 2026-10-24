@@ -1,7 +1,7 @@
 interface:
   display_name: "/xxd-panel-040"
-  short_description: "Create Panel 040 from images or a directory batch."
-  default_prompt: "Use $xxd-panel-040; accept one image or an image directory, keep the body of its bundled original style brief as the sole aesthetic authority, resolve shared batch settings once, isolate every source, send exactly one mode-specific delivery contract per asset, keep one flat task directory, make design-only and wallpaper outputs fully transformed, and ground factual-looking copy in supplied or verified facts."
+  short_description: "涂鸦同伴：保留照片里最值得记住的真实主体，再加几个黑线小人演一场微型戏"
+  default_prompt: "Use $xxd-panel-040 to turn my photo into Doodle Companion artwork."
 
 policy:
   allow_implicit_invocation: true

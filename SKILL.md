@@ -1,6 +1,6 @@
 ---
 name: xxd-panel-040
-description: "Create XXD Panel 040 raster artwork from one image or a directory batch while treating the bundled original style brief as the sole aesthetic authority. Supports one or more top-bottom, left-right, design-only, and four-device wallpaper outputs; multiple ratios or exact sizes; prompt-generated, user-exact, or text-free typography; and inline parameters. Use when the user invokes xxd-panel-040 or requests the exact Panel 040 style."
+description: "XXD Panel 040｜Doodle Companion: keeps the one real subject that best tells the photo's story — its material and identity intact, colours lightly purified — and surrounds it with a few minimal black-line doodle figures whose actions answer, enlarge or flip that story. A cream or pale background leaves plenty of whitespace; the figures and a very short, light, witty handwritten line (a pun, a thought or an aside, never the object's name) are in black or dark-grey line. Outputs PNG top-bottom or left-right comparisons, design-only images, or phone/tablet/desktop/watch wallpapers, from one photo or a folder. Use when the user invokes xxd-panel-040 or asks for real objects with doodle people, playful stick-figure stories or witty editorial posters from a photo."
 ---
 
 # XXD Panel 040
